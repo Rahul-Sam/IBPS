@@ -1,0 +1,30 @@
+Options +FollowSymLinks
+Options -Indexes
+RewriteEngine On
+ 
+RewriteBase  /
+
+#header link and script
+#Bootstrap
+
+RewriteRule ^bootcss boot/css/bootstrap.css
+RewriteRule ^acss boot/acss/acss.css
+
+
+RewriteRule ^bootjqueryjs boot/js/jquery.min.js
+RewriteRule ^bootjs boot/js/bootstrap.js 
+
+#form validator 
+RewriteRule ^bootjsaddmthdjs boot/js/additional-methods.min.js
+RewriteRule ^bootjqueryvldtminjs boot/js/jquery.validate.min.js
+
+#<!-- custom methos for form validator -->
+RewriteRule ^booteregvaldtn boot/js/eregvalidation/ereg.validation.js
+RewriteRule ^bootjscaddmthdjs boot/js/eregvalidation/custom.added.methods.js
+#overloaded css file
+RewriteRule ^csssstyle boot/ccss/style.css 
+#font awesome 
+RewriteRule ^faw Boot/css/font-awesome/css/font-awesome.css
+
+#header image
+RewriteRule ^headerimg Includes/headerimg.jpg 

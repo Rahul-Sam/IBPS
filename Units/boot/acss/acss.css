@@ -1,0 +1,31 @@
+body{
+    background-color: #c5d5cb;
+}
+
+.hide{
+    display: none;
+}
+.footer {
+    background-color: #efefef;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid rgba(86,61,124,.2);
+    background-color: rgba(86,61,124,.15);
+    padding-right: -30px;
+    padding-left: -30px;
+  }
+  .header {
+    background-color: rgba(86,61,124,.15);
+  }
+label.error {
+    float: none;
+    padding-left: .5em;
+    vertical-align: top;
+    display: block;
+    color: red;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.bg-rid{
+    background-color: rgba(86,61,124,.15);
+}
